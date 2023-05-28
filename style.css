@@ -1,0 +1,68 @@
+html, body {
+  font-family: 'Roboto Slab', Sans-Serif;
+  font-size: 14px;
+  position: relative;
+  height: 100%;
+  margin: 0;
+  color: #403737;
+  background-color: #E8E8E8;
+}
+
+@media screen and (min-width: 720px)  { body { font-size: 16px; } }
+@media screen and (min-width: 900px)  { body { font-size: 18px; } }
+@media screen and (min-width: 1280px) { body { font-size: 20px; } }
+@media screen and (min-width: 1600px) { body { font-size: 22px; } }
+@media screen and (min-width: 1920px) { body { font-size: 26px; } }
+@media screen and (min-width: 2560px) { body { font-size: 30px; } }
+
+.name {
+  font-size: 2.6em;
+  text-transform: uppercase;
+  letter-spacing: 1,5px;
+  margin: 0;
+}
+
+.description {
+  font-family: 'Source Sans Pro', Sans-Serif;
+  font-weight: 300;
+  font-size: 1.8em;
+  margin: 0 0 .8em;
+}
+
+.contact-information {
+  display: inline;
+  width: auto;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  line-height: 1.4;
+  font-size: 0.9em;
+  font-family: 'Source Sans Pro', Sans-Serif;
+}
+
+.contact-details li {
+  width: 100%;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+a {
+  color: #444;
+}
+
+section .wrapper {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  -webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+       -o-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
